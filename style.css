@@ -254,6 +254,7 @@ button:hover {
 
 .announcements {
   gap: 50px;
+  
 }
 
 .announcements-cards-set {
@@ -261,6 +262,11 @@ button:hover {
   margin-bottom: 50px;
   background-color: var(--bg_card);
   border-radius: 5%;
+  /* align-self: center; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
 }
 
 .announcements-card p {
@@ -278,11 +284,11 @@ button:hover {
   font-size: 0.9rem;
 }
 
+
+
 .separator {
   border-top: solid 1px gray;
   width: 80%;
-  display: flex;
-  justify-self: center;
 }
 
 .trending {
